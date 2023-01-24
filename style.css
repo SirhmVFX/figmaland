@@ -12,6 +12,12 @@
 
 
 /* Variables  */
+:root {
+    --ff: 'Poppins', sans-serif;
+
+    --clr-primary: #4452FE;
+    --clr-neutral: #ffffff;
+}
 
 
 /* Utility Classes */
