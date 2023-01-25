@@ -10,6 +10,15 @@
     font-family: --ff;
 }
 
+button, textarea, fieldset {
+    font: inherit;
+}
+
+img {
+    display: block;
+    
+}
+
 
 /* Variables  */
 :root {
@@ -17,6 +26,7 @@
 
     --clr-primary: #4452FE;
     --clr-neutral: #ffffff;
+    --clr-neutral2: #181818;
 }
 
 
