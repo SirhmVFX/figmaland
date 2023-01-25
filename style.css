@@ -16,6 +16,7 @@ button, textarea, fieldset {
 
 html {
     scroll-behavior: smooth;
+    background-color: var(--clr-neutral2);
 }
 
 img {
@@ -36,6 +37,30 @@ img {
 
 
 /* Utility Classes */
+.margin-block {
+    margin-block: 1rem;
+}
 
 
 /* General Styles */
+nav {
+    display: flex;
+}
+
+nav img {
+    width: 30%;
+}
+
+
+
+
+@media (min-width:50em) {
+    .header__nav {
+        width: min(1200px, 90%);
+        margin-inline: auto;
+    }
+
+    nav ul {
+        display: flex;
+    }
+}
