@@ -41,6 +41,12 @@ img {
     margin-block: 1rem;
 }
 
+.container {
+    width: min(1200px, 90%);
+    margin-inline: auto;
+    color: var(--clr-neutral);
+}
+
 .primary-button {
     background-color: var(--clr-neutral2);
     border: 1px solid var(--clr-neutral);
@@ -60,6 +66,7 @@ nav img {
 
 
 @media (min-width:50em) {
+
     .header__nav {
         width: min(1200px, 90%);
         margin-inline: auto;
@@ -69,6 +76,7 @@ nav img {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
+        padding: 1rem;
     }
     
 
