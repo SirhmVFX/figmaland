@@ -47,6 +47,7 @@ img {
     color: var(--clr-neutral);
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
 }
 
@@ -57,6 +58,12 @@ img {
     padding: .5rem 2rem;
 }
 
+.secondary-button {
+    background-color: var(--clr-primary);
+    border: 1px solid var(--clr-primary);
+    color: var(--clr-neutral);
+    padding: .5rem 2rem;   
+}
 
 /* General Styles */
 
