@@ -41,6 +41,13 @@ img {
     margin-block: 1rem;
 }
 
+.primary-button {
+    background-color: var(--clr-neutral2);
+    border: 1px solid var(--clr-neutral);
+    color: var(--clr-neutral);
+    padding: .5rem 2rem;
+}
+
 
 /* General Styles */
 
