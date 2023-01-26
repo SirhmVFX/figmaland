@@ -43,9 +43,7 @@ img {
 
 
 /* General Styles */
-nav {
-    display: flex;
-}
+
 
 nav img {
     width: 30%;
@@ -60,7 +58,15 @@ nav img {
         margin-inline: auto;
     }
 
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
     nav ul {
         display: flex;
     }
+
+    nav li
 }
