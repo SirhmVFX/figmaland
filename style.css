@@ -53,6 +53,10 @@ h1 {
     font-weight: 700;
 }
 
+p {
+    line-height: 1.5;
+}
+
 .container {
     width: min(1200px, 90%);
     margin-inline: auto;
@@ -90,6 +94,17 @@ nav img {
     display: flex;
     gap: 2rem;
     margin-block: 2rem;
+}
+
+.features__mini {
+    display: flex;
+    padding: 2rem;
+    width: 300px;
+    gap: 1rem;
+}
+
+.features__mini figure {
+    width: 20%;
 }
 
 
