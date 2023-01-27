@@ -44,8 +44,14 @@ img {
 }
 
 .centre-div {
+    margin-block: 6rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+}
+
+.centre-div p, h1 {
+    text-align: center;
 }
 
 h1 {
@@ -93,7 +99,6 @@ nav img {
 .hero-buttons {
     display: flex;
     gap: 2rem;
-    margin-block: 2rem;
 }
 
 .features__mini {
