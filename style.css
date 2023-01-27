@@ -46,7 +46,6 @@ img {
 h1 {
     font-size: var(--ff-primary);
     font-weight: 700;
-    text-align: center;
 }
 
 .container {
@@ -63,14 +62,16 @@ h1 {
     background-color: var(--clr-neutral2);
     border: 1px solid var(--clr-neutral);
     color: var(--clr-neutral);
-    padding: .5rem 2rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
 }
 
 .secondary-button {
     background-color: var(--clr-primary);
     border: 1px solid var(--clr-primary);
     color: var(--clr-neutral);
-    padding: .5rem 2rem;   
+    padding: 1rem 2rem;  
+    cursor: pointer; 
 }
 
 /* General Styles */
@@ -78,6 +79,11 @@ h1 {
 
 nav img {
     width: 30%;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 2rem;
 }
 
 
@@ -110,5 +116,9 @@ nav img {
     nav a {
         text-decoration: none;
         color: var(--clr-neutral);
+    }
+
+    .hero__section h1, p {
+        text-align: center;
     }
 }
