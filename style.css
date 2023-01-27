@@ -1,5 +1,5 @@
 /* Font Import */
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:&display=swap');
 
 
 /* Document Reset */
@@ -33,12 +33,20 @@ img {
     --clr-primary: #4452FE;
     --clr-neutral: #ffffff;
     --clr-neutral2: #181818;
+
+    --ff-primary: clamp(3rem, 5vw, 5rem);
 }
 
 
 /* Utility Classes */
 .margin-block {
     margin-block: 1rem;
+}
+
+h1 {
+    font-size: var(--ff-primary);
+    font-weight: 700;
+    text-align: center;
 }
 
 .container {
