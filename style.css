@@ -106,6 +106,7 @@ nav img {
     padding: 2rem;
     width: 300px;
     gap: 1rem;
+    
 }
 
 .features__mini figure {
@@ -150,5 +151,10 @@ nav img {
 
     .features__section {
         display: flex;
+        gap: 1rem;
+    }
+
+    .ft1 {
+        width: 80%;
     }
 }
