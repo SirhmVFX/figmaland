@@ -43,6 +43,11 @@ img {
     margin-block: 1rem;
 }
 
+.centre-div {
+    display: flex;
+    justify-content: center;
+}
+
 h1 {
     font-size: var(--ff-primary);
     font-weight: 700;
@@ -84,6 +89,7 @@ nav img {
 .hero-buttons {
     display: flex;
     gap: 2rem;
+    margin-block: 2rem;
 }
 
 
@@ -118,7 +124,11 @@ nav img {
         color: var(--clr-neutral);
     }
 
-    .hero__section h1, p {
+    .hero__section h1 {
         text-align: center;
+    }
+
+    .features__section {
+        display: flex;
     }
 }
