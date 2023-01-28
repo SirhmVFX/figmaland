@@ -113,6 +113,24 @@ nav img {
     width: 20%;
 }
 
+.contents__section {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.contents {
+    background-color: whitesmoke;
+    padding: 2rem;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.contents h3, p{
+    color: #181818;
+    text-align: center;
+}
+
 
 
 
