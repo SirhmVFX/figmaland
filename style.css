@@ -94,22 +94,62 @@ p {
 
 /* General Styles */
 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 nav img {
-    width: 30%;
+    width: 70%;
+}
+
+.nav__elements {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--clr-neutral2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav__elements ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.nav__elements li {
+    list-style: none;
+    text-align: center;
+
+}
+
+.nav__elements a {
+    color: var(--clr-neutral);
+    text-decoration: none;
+}
+
+.hamburger {
+    display: block;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 33px;
+    height: 5px;
+    background-color: var(--clr-neutral);
+    margin-block: 3px;
 }
 
 .header__nav {
     width: min(500px, 80%);
 }
 
-nav li {
-    display: none;
-}
 
-nav button {
-    display: none;
-}
 
 .linear-bg {
     background-image: linear-gradient(rgba(255, 255, 255, 0), black);
