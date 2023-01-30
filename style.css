@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--ff);
+    border: 1px solid red ;
 }
 
 button, textarea, fieldset {
@@ -98,6 +99,14 @@ nav img {
     width: 30%;
 }
 
+.header__nav {
+    width: min(500px, 80%);
+}
+
+nav li {
+    display: none;
+}
+
 .linear-bg {
     background-image: linear-gradient(rgba(255, 255, 255, 0), black);
     width: 100%;
@@ -108,6 +117,7 @@ nav img {
 
 .hero-buttons {
     display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
@@ -125,6 +135,7 @@ nav img {
 
 .contents__section {
     display: flex;
+    flex-direction: column;
     gap: 2rem;
 }
 
@@ -138,7 +149,7 @@ nav img {
     background-color: whitesmoke;
     padding: 2rem;
     border-radius: 10px;
-    width: 400px;
+    /* width: 400px; */
 }
 
 
