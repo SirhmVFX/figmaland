@@ -44,7 +44,7 @@ img {
 }
 
 .centre-div {
-    margin-block: 6rem;
+    margin-block: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -114,9 +114,9 @@ nav button {
 .linear-bg {
     background-image: linear-gradient(rgba(255, 255, 255, 0), black);
     width: 100%;
-    height: 100vh;
+    height: 40vh;
     position: absolute;
-    top: 650px;
+    top: 550px;
 }
 
 .hero-buttons {
