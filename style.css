@@ -8,7 +8,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--ff);
-    border: 1px solid red ;
 }
 
 button, textarea, fieldset {
@@ -35,7 +34,7 @@ img {
     --clr-neutral: #ffffff;
     --clr-neutral2: #181818;
 
-    --ff-primary: clamp(3rem, 5vw, 5rem);
+    --ff-primary: clamp(2rem, 5vw, 5rem);
 }
 
 
@@ -72,6 +71,7 @@ p {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+    padding: 2rem;
 }
 
 .primary-button {
@@ -104,6 +104,10 @@ nav img {
 }
 
 nav li {
+    display: none;
+}
+
+nav button {
     display: none;
 }
 
