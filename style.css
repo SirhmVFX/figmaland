@@ -209,6 +209,11 @@ nav img {
     /* width: 400px; */
 }
 
+.gallery-img {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 
