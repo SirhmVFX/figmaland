@@ -8,6 +8,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--ff);
+    border: 1px solid red;
 }
 
 button, textarea, fieldset {
@@ -98,7 +99,7 @@ p {
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -122,7 +123,7 @@ nav img {
 }
 
 .show {
-    width: 70%;
+    width: 80%;
     opacity: 1;
     transition: 0.4s;
 
@@ -158,10 +159,8 @@ nav img {
     
 }
 
-.hamburger .line
-
 .header__nav {
-    width: min(1500px, 80%);
+    width: min(1500px, 100%);
     margin-inline: auto;
 }
 
