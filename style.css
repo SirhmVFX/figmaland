@@ -242,6 +242,12 @@ nav img {
         opacity: 1;
         display: flex;
         flex-direction: row;
+        top: 10px;
+    }
+
+    .nav__elements ul {
+        display: flex;
+        flex-direction: row;
     }
 
     nav ul {
