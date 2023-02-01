@@ -219,6 +219,11 @@ nav img {
 
 @media (min-width:50em) {
 
+    .hamburger {
+        display: none;
+    }
+
+
     .header__nav {
         width: min(1200px, 90%);
         margin-inline: auto;
@@ -231,6 +236,13 @@ nav img {
         padding: 1rem;
     }
     
+    .nav__elements {
+        position: relative;
+        height: 10px;
+        opacity: 1;
+        display: flex;
+        flex-direction: row;
+    }
 
     nav ul {
         display: flex;
