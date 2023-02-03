@@ -243,6 +243,15 @@ nav img {
     flex-wrap: wrap;
 }
 
+.other {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.other div {
+    width: 50%;
+}
+
 
 
 
