@@ -263,6 +263,23 @@ nav img {
 } 
 
 
+footer {
+    display: flex;
+    padding: 6rem;
+    justify-content: space-around;
+    color: whitesmoke;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+
 
 
 
