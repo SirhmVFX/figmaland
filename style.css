@@ -272,6 +272,7 @@ footer {
 
 footer li {
     list-style: none;
+    padding-block: 0.5rem;
 }
 
 footer a {
