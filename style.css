@@ -251,10 +251,11 @@ nav img {
 
 .other {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background-color: #343434;
-    padding: 3rem;
+    padding: 0.2rem;
     border-radius: 20px;
 } 
 
@@ -265,6 +266,8 @@ nav img {
 
 footer {
     display: flex;
+    flex-direction: column;
+    gap: 2rem;
     padding: 6rem;
     justify-content: space-around;
     color: whitesmoke;
@@ -290,6 +293,9 @@ footer a {
 footer figure {
     width: 10%;
 }
+
+
+
 
 
 
@@ -370,6 +376,15 @@ footer figure {
     }
 
     .contents__section {
+        flex-direction: row;
+    }
+
+    .other {
+        flex-direction: row;
+        padding: 2rem;
+    }
+
+    footer {
         flex-direction: row;
     }
 }
