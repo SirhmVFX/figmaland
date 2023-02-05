@@ -281,6 +281,17 @@ footer a {
 }
 
 
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+footer figure {
+    width: 10%;
+}
+
+
 
 
 
