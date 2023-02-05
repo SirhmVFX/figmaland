@@ -146,6 +146,13 @@ nav img {
 
 }
 
+.nav__elements a:hover {
+    background-color: #ffffff;
+    color: #181818;
+    padding: 1rem 2rem;
+    transition: 0.4s;
+}
+
 .nav__elements a {
     color: var(--clr-neutral);
     text-decoration: none;
