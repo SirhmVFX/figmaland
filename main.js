@@ -1,5 +1,6 @@
 const hamburger = document.querySelector(".hamburger");
 const menu = document.querySelector(".nav__elements");
+let logo = document.getElementById("logo")
 
 let toggleMode = document.getElementById("toggleMode");
 

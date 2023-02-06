@@ -28,6 +28,14 @@ img {
     height: auto;
 }
 
+#logo {
+    display: var(--logo);
+}
+
+#logo2 {
+    display: var(--logo2);
+}
+
 
 /* Variables  */
 :root {
@@ -37,6 +45,9 @@ img {
     --clr-neutral: #ffffff;
     --clr-neutral2: #181818;
 
+    --logo: none;
+    --logo2: block;
+
     --ff-primary: clamp(2rem, 5vw, 5rem);
     --ff-primary-2: clamp(2rem, 4vw, 4rem);
 }
@@ -45,6 +56,9 @@ img {
 .darkTheme {
     --clr-neutral: #181818;
     --clr-neutral2: #ffffff;
+
+    --logo: block;
+    --logo2: none;
 }
 
 
