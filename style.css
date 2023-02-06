@@ -154,6 +154,9 @@ nav img {
 
 .nav-btn {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
 }
 
 .nav__elements li {
@@ -195,7 +198,7 @@ nav img {
 
 .linear-bg {
 
-    background-image: linear-gradient(rgba(255, 255, 255, 0), black);
+    background-image: linear-gradient(rgba(255, 255, 255, 0), var(--clr-neutral2));
     width: 100%;
     height: 40vh;
     position: absolute;
@@ -286,9 +289,13 @@ nav img {
     width: 50%;
 } 
 
-.fa-toggle-on {
-    color: var(--clr-neutral);
+.fa {
+    background-color: var(--clr-neutral2);
     width: 100px;
+    color: var(--clr-neutral);
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
 }
 
 
@@ -414,5 +421,11 @@ footer figure {
 
     footer {
         flex-direction: row;
+    }
+
+    .nav-btn {
+        flex-direction: row;
+        align-items: center;
+        gap: 2rem;
     }
 }
