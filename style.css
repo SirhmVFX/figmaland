@@ -20,6 +20,7 @@ html {
 
 body {
     background-color: var(--clr-neutral2);
+    transition: 0.4s;
 }
 
 img {
@@ -59,6 +60,8 @@ img {
 
     --logo: block;
     --logo2: none;
+
+    transition: 0.4s;
 }
 
 
