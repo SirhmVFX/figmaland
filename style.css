@@ -16,6 +16,9 @@ button, textarea, fieldset {
 
 html {
     scroll-behavior: smooth;
+}
+
+body {
     background-color: var(--clr-neutral2);
 }
 
@@ -38,10 +41,10 @@ img {
     --ff-primary-2: clamp(2rem, 4vw, 4rem);
 }
 
-.dark {
-    background-color: white;
-    color: #181818; 
-    
+
+.darkTheme {
+    --clr-neutral: #181818;
+    --clr-neutral2: #ffffff;
 }
 
 
@@ -49,6 +52,9 @@ img {
 .margin-block {
     margin-block: 1rem;
 }
+
+
+
 
 .centre-div {
     margin-block: 4rem;

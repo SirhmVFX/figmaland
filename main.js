@@ -9,6 +9,5 @@ hamburger.onclick = function () {
 }
 
 toggleMode.addEventListener("click", function() {
-    document.body.style.backgroundColor = "white"
-    document.body.style.color = "black"
+    document.body.classList.toggle("darkTheme")
 })
