@@ -38,6 +38,12 @@ img {
     --ff-primary-2: clamp(2rem, 4vw, 4rem);
 }
 
+.dark {
+    background-color: white;
+    color: #181818; 
+    
+}
+
 
 /* Utility Classes */
 .margin-block {
@@ -138,6 +144,10 @@ nav img {
     display: flex;
     flex-direction: column;
     gap: 2rem;
+}
+
+.nav-btn {
+    display: flex;
 }
 
 .nav__elements li {
