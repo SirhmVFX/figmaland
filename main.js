@@ -13,6 +13,7 @@ toggleMode.addEventListener("click", function() {
     document.body.classList.toggle("darkTheme")
     if (toggleMode.className == "fa fa-toggle-on") {
         toggleMode.className = "fa fa-toggle-off"
+        
     } else {
         toggleMode.className = "fa fa-toggle-on"
     }
