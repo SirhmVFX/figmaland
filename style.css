@@ -10,7 +10,7 @@
     font-family: var(--ff);
 }
 
-button, textarea,  {
+button, textarea, fieldset {
     font: inherit;
 }
 
