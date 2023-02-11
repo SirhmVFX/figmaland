@@ -10,12 +10,12 @@
     font-family: var(--ff);
 }
 
-button, textarea,  {
+button, textarea, fieldset {
     font: inherit;
 }
 
 html {
-    scroll-behavior: smooth;
+    scroll-behavior: ;
 }
 
 body {
