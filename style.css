@@ -30,6 +30,8 @@ img {
     height: auto;
 }
 
+/* comment here  */
+
 #logo {
     display: var(--logo);
 }
