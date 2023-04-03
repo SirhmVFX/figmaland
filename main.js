@@ -4,6 +4,7 @@ let logo = document.getElementById("logo")
 
 let toggleMode = document.getElementById("toggleMode");
 
+// 
 
 hamburger.onclick = function () {
     menu.classList.toggle("show");
